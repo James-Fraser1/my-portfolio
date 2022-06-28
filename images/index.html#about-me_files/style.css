@@ -1,0 +1,154 @@
+header {
+    padding: 20px 35px;
+    background-color: black;
+    color: black;
+  }
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #000000;
+    margin: 0;
+    display: inline;
+    background-color: navy;
+  }
+  
+header a {
+    text-decoration: none;
+    color: aquamarine;
+  }
+  
+header nav {
+    float: right;
+    text-decoration: underline;
+    margin: 7px 0;
+  }
+  
+header nav ul li {
+    display: inline;
+  }
+  
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+  }
+
+  /* Hero Style Start */
+.home-pg {
+    background-image: url("images/portfolio.jpeg");
+    height: 200px;
+    background-size: contain;
+    background-position: center;
+    position: relative;
+    font-size: 36px;
+  }
+
+.home-pg h2 {
+    position: absolute;
+    bottom: 50px;
+    right: 140px;
+    word-wrap: break-word;
+    background-color: navy;
+    color: aquamarine;
+}
+
+.bio {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.first-title {
+    margin: auto;
+    margin-left: 100px;
+    border-right: 4px solid aquamarine;
+    height: 225px;
+    float: left;
+    color: aquamarine;
+    text-align-last: center;
+    width: 150px;
+  }
+
+  .first-title p {
+    margin: 0 30px;
+  }
+
+.second-title {
+    margin: auto;
+    margin-left: 100px;
+    border-right: 4px solid aquamarine;
+    height: 1246px;
+    float: left;
+    color: aquamarine;
+    text-align-last: center;
+    width: 150px;
+  }
+
+.third-title {
+    margin: auto;
+    margin-left: 100px;
+    border-right: 4px solid aquamarine;
+    height: 90px;
+    float: left;
+    color: aquamarine;
+    text-align-last: center;
+    width: 150px;
+  } 
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2%;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+.main-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 60px;
+  background: #13293d;
+  color: #fff;
+}
+
+.card {
+  flex: 1 0 0;
+  padding: 10px;
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.card header {
+  padding: 20px;
+  background: black;
+  color: aquamarine;
+}
+
+.card img {
+  width: 100%;
+  min-width: 400px
+}
+
+footer a {
+  text-decoration: none;
+  color: aquamarine;
+}
+
+footer nav {
+  text-decoration: underline;
+  margin: 7px 0;
+}
+
+footer nav ul li {
+  display: inline;
+}
+
+footer nav ul li a {
+  margin: 0 30px;
+  font-weight: lighter;
+  font-size: 22px;
+  color: aquamarine;
+  text-align: right;
+}
